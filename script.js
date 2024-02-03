@@ -1,23 +1,23 @@
-console.log("shyam sundar yadav");
+// let var and const
 
-// Varaible in js
-// Varaible are a container for data
+let fullName = "shyam Yadav";
+let age = 20;
+let totalPrice = 1000;
+console.log(fullName, age);
 
-// memory  allocation of variable is dynamic, it will allocate the memory as per need of data.
-var name = "Shyam Sundar Yadav"; // string type value can be
+fullName = "om kumar yadav";
+console.log(fullName);
 
-console.log("shyam");
-a = null;
-b = undefined;
-console.log(typeof a);
-console.log(typeof b);
+{
+  let age = 203;
+  console.log("block", age);
+}
+console.log(age);
 
-isFollow = false;
-isFollow = true;
-console.log(isFollow);
-isFollow = "shyam";
-console.log(typeof isFollow);
+{
+  const name = "shyam yadav";
+  console.log("blcok", name);
+}
 
-fullNmae = '554';
-
-// a and A are different value  
+const name = "shyam yadav";
+console.log(name);
